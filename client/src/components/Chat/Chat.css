@@ -1,0 +1,26 @@
+.containerChat {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 60%;
+  width: 35%;
+  background-color: white;
+  border-radius: 8px;
+}
+
+.outerContainerChat {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: black;
+}
+.messages {
+  padding: 5% 0;
+  overflow: auto;
+  flex: auto;
+}
+.inputComponent {
+  display: flex;
+  justify-content: flex-end;
+}
